@@ -1,0 +1,38 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "weebify.always-upright",
+	"name": "Always Upright",
+	"version": "v1.0.0",
+	"developer": "Weebify",
+	"description": "Rotates screen when the player flips gravity",
+	"tags": ["joke", "gameplay"],
+	"links": {
+		"source": "https://github.com/Weebifying/always-upright-geode"
+	},
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Enabled",
+			"description": "Enable the mod",
+			"default": true
+		},
+		"also-mirror": {
+			"type": "bool",
+			"name": "Also Mirrors Screen",
+			"description": "Also mirrors the screen when the player flips gravity",
+			"default": true
+		},
+		"also-p2": {
+			"type": "bool",
+			"name": "Register Both in Dual",
+			"description": "Also rotates/mirrors the screen when the secondary player flips gravity",
+			"default": true
+		}
+	}
+}
